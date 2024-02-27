@@ -46,3 +46,4 @@ var url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vS7EF_2Yz5C_RbVKsSmOj
   document.onload = search;
 
 })();
+window.search()
