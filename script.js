@@ -32,7 +32,7 @@ var url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vS7EF_2Yz5C_RbVKsSmOj
     // Generate HTML for the filtered tools
     html = searchlist
       .map((tool) => {
-        return `<a href="#"><li class="search-list"> ${tool.title} <span>${tool.views}</span></li></a>`;
+        return `<a href="${tool.link}"><li class="search-list"> ${tool.title} <span>${tool.views}</span></li></a>`;
       })
       .join("");
 
