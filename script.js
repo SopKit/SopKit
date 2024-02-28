@@ -19,7 +19,7 @@ var url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vS7EF_2Yz5C_RbVKsSmOj
   console.log(tools);
 
   // Function to handle search
-  window.search = async () => {
+  search = async () => {
     // Filter tools based on the search query
     window.searchlist = tools.filter((tool) => {
       return (
