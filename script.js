@@ -42,10 +42,5 @@ var url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vS7EF_2Yz5C_RbVKsSmOj
 
   // Add event listener to trigger search on keyup event in the search input
   document.getElementById("search").addEventListener("keyup", search);
-  document.addEventListener("keyup", search);
-        document.addEventListener("DOMContentLoaded",search);
-})();
-document.addEventListener("DOMContentLoaded", function() {
-  // This function will run when the DOM is fully loaded
   search();
-});
+})();
