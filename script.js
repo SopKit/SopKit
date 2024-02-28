@@ -43,7 +43,7 @@ var url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vS7EF_2Yz5C_RbVKsSmOj
   // Add event listener to trigger search on keyup event in the search input
   document.getElementById("search").addEventListener("keyup", search);
   document.addEventListener("scroll", search);
-  document.onload = search;
+  document.onload = search();
 
 })();
 window.search()
